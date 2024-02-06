@@ -2,11 +2,11 @@ letsencrypt_contact_emails:
   - admin@example.com
 
 wordpress_sites:
-  example.com:
+  oss.uatwebsite.live:
     site_hosts:
-      - canonical: example.com
+      - canonical: oss.uatwebsite.live
         redirects:
-          - www.example.com
+          - www.oss.uatwebsite.live
     local_path: ../site
     repo: git@github.com:roots/bedrock.git
     branch: master
